@@ -6,13 +6,13 @@ Lucid Dreams is a child theme of the expound theme by Konstantin Kovshenin: http
 Screenshots
 -----------
 
-Click on the thumbnail to view the screenshot in full resolution.
+Click on the thumbnail to view the full resolution screenshot.
 
 [![Home_Featured_Post](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_featured_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_featured.png)
-[![Home_Normal_Post](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_posts_normal_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_posts_normal_thumbnail.png)
-[![Post](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/post_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/post_thumbnail.png)
-[![Footer](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/footer_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/footer_thumbnail.png)
-[![Page_1920px](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/page_1920px_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/page_1920px_thumbnail.png)
+[![Home_Normal_Post](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_posts_normal_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_posts_normal.png)
+[![Post](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/post_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/post.png)
+[![Footer](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/footer_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/footer.png)
+[![Page_1920px](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/page_1920px_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/page_1920px.png)
 
 Features
 --------
