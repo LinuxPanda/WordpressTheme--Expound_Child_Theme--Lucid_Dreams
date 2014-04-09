@@ -1,0 +1,48 @@
+/* =Top Navigation Menu
+----------------------------------------------- */
+
+.navigation-top {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+.navigation-top ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+.navigation-top li {
+	float: left;
+	position: relative;
+}
+.navigation-top a {
+	display: block;
+	text-decoration: none;
+}
+.navigation-top li:hover > a {
+}
+.navigation-top li.current_page_item a,
+.navigation-top li.current-menu-item a {
+}
+
+/* Small menu */
+.menu-top-toggle {
+	display: none;
+	cursor: pointer;
+}
+
+.main-small-navigation ul {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.menu-top-toggle,
+	.main-small-navigation ul.nav-menu-top.toggled-on {
+		display: block;
+	}
+
+	.navigation-top ul {
+		display: none;
+	}
+}
