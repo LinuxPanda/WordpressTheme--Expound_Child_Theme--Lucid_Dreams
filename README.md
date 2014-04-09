@@ -3,24 +3,35 @@ Lucid Dreams (Child Theme for Expound)
 
 Lucid Dreams is a child theme of the expound theme by Konstantin Kovshenin: https://wordpress.org/themes/expound.
 
-![Blue_Post](http://custom.simplemachines.org/themes/index.php?action=download;lemma=2755;id=17105;image=thumb)
-![Blue_Home](http://custom.simplemachines.org/themes/index.php?action=download;lemma=2755;id=17103;image=thumb)
-![Orange_Post](http://custom.simplemachines.org/themes/index.php?action=download;lemma=2755;id=17111;image=thumb)
-![Orange_Home](http://custom.simplemachines.org/themes/index.php?action=download;lemma=2755;id=17112;image=thumb)
-![Lavender_Post](http://custom.simplemachines.org/themes/index.php?action=download;lemma=2755;id=17109;image=thumb)
-![Lavender_Home](http://custom.simplemachines.org/themes/index.php?action=download;lemma=2755;id=17110;image=thumb)
-![LightBlue_Home](http://custom.simplemachines.org/themes/index.php?action=download;lemma=2755;id=17108;image=thumb)
+Screenshots
+-----------
 
-> This is a "theme package" for Simple Machines Forum 2.0.x
+Click on the thumbnail to view the screenshot in full resolution.
 
-Full resolution screenshots & the theme package are available in SMF theme site. Kindly check this link, http://custom.simplemachines.org/themes/index.php?lemma=2755.
+[![Home_Featured_Post](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_featured_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_featured.png)
+[![Home_Normal_Post](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_posts_normal_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/home_posts_normal_thumbnail.png)
+[![Post](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/post_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/post_thumbnail.png)
+[![Footer](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/footer_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/footer_thumbnail.png)
+[![Page_1920px](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/page_1920px_thumbnail.png)](https://raw.githubusercontent.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams/master/screenshots/page_1920px_thumbnail.png)
 
 Features
 --------
 
-* Social icons move to footer.
+* Social icons moved to footer.
 * Added a secondary menu above the header area.
-* Added a widget area to the right of logo (with the idea of adding a ad banner of 468*60 px).
+* Added a widget area to the right of logo for adding a custom image or ad banner of 468*60 px.
+
+Note
+----
+* Custom header image does not work properly with this theme.
+
+How-To
+-------
+1. Download the zip file and unzip it.
+2. Rename the directory to "Lucid Dreams" and delete the 'screenshots' directory.
+3. Zip the directory.
+4. Upload the zip file to your wordpress installation & enjoy.
+5. If the theme is not working then make sure that you have the expound theme, https://wordpress.org/themes/expound, installed in your wordpress installation.
 
 Version
 -------
