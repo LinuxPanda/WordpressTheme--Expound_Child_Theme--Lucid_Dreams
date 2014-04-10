@@ -40,9 +40,9 @@ To enable breadcrumb, I recommend the ["Hansel & Gretel: Fine-Tuned Breadcrumb G
 Add this code to content-single.php inside the header div or wherever you like.
 
 ```php
-		<div class="HAG">
-			<?php if (function_exists('HAG_Breadcrumbs')) { HAG_Breadcrumbs(); } ?>
-		</div><!-- .Hansel & Gretel Breadcrumb -->
+<div class="HAG">
+	<?php if (function_exists('HAG_Breadcrumbs')) { HAG_Breadcrumbs(); } ?>
+</div><!-- .Hansel & Gretel Breadcrumb -->
 ```
 
 Add this code to style.css (optional).
