@@ -30,7 +30,7 @@
 			<h1 class="menu-top-toggle"><?php _e( 'Top Menu', 'expound' ); ?></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'expound' ); ?></a>
 
-			<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'depth' => 1 ) ); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'depth' => 3 ) ); ?>
 			<?php do_action( 'expound_navigation_after' ); ?>
 		</nav><!-- #top-navigation -->
 

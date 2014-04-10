@@ -1,8 +1,8 @@
 /*
 Theme Name: Lucid Dreams
-Theme URI: https://github.com/linuxpanda
-Author: Linux Panda
-Author URI: https://github.com/linuxpanda
+Theme URI: https://github.com/LinuxPanda/WordpressTheme--Expound_Child_Theme--Lucid_Dreams
+Author: LinuxPanda
+Author URI: https://github.com/LinuxPanda
 Description: Lucid Dreams is a child theme of the expound theme by Konstantin Kovshenin: https://wordpress.org/themes/expound.
 Template: expound
 Version: 1.0
@@ -150,21 +150,36 @@ a:active {
 .navigation-main ul > .current-menu-ancestor:hover a:after,
 .navigation-main ul > .current-menu-parent:hover a:after,
 .navigation-main ul > .current-post-parent:hover a:after {
-  border-top-color: #215992;
+  border: none !important;
 }
 .navigation-main ul > .current_page_item ~ .current_page_item a,
 .navigation-main ul > .current-menu-item ~ .current-menu-item a,
 .navigation-main ul > .current-post-ancestor ~ .current-post-ancestor a,
 .navigation-main ul > .current-menu-parent ~ .current-menu-parent a,
 .navigation-main ul > .current-post-parent ~ .current-post-parent a {
-  background: #2b72bb;
+  background: #2e2e2e;
 }
 .navigation-main ul > .current_page_item ~ .current_page_item a:hover,
 .navigation-main ul > .current-menu-item ~ .current-menu-item a:hover,
 .navigation-main ul > .current-post-ancestor ~ .current-post-ancestor a:hover,
 .navigation-main ul > .current-menu-parent ~ .current-menu-parent a:hover,
 .navigation-main ul > .current-post-parent ~ .current-post-parent a:hover {
-  background: #19243a;
+  background: #2b72bb;
+}
+.navigation-main ul > .current_page_item a:after,
+.navigation-main ul > .current-menu-item a:after,
+.navigation-main ul > .current-post-ancestor a:after,
+.navigation-main ul > .current-menu-parent a:after,
+.navigation-main ul > .current-post-parent a:after {
+  border: none !important;
+}
+.navigation-main ul > .current_page_item ~ .current_page_item a:after,
+.navigation-main ul > .current-menu-item ~ .current-menu-item a:after,
+.navigation-main ul > .current-post-ancestor ~ .current-post-ancestor a:after,
+.navigation-main ul > .current-menu-parent ~ .current-menu-parent a:after,
+.navigation-main ul > .current-post-parent ~ .current-post-parent a:after,
+.navigation-main ul ul li a:after {
+  border: none !important;
 }
 .navigation-main ul ul {
   margin: 0;
@@ -854,16 +869,17 @@ a.wpm-button:hover {
   z-index: 9990;
   float: none;
   margin: 0 auto;
-  padding: 0 10px;
   max-width: 1100px;
 }
 .navigation-top a {
   color: #555;
-  padding: 2px 10px 1px 10px;
-  position: relative;
+}
+.navigation-top li {
+  background: #fff;
+  padding: 0 10px;
 }
 .navigation-top li:hover {
-  background: #eee;
+  background: #ccc;
 }
 .navigation-top ul > .current_page_item,
 .navigation-top ul > .current-menu-item,
@@ -881,6 +897,21 @@ a.wpm-button:hover {
 .navigation-top ul > .current-post-parent:hover {
   background: #eee;
 }
+.navigation-top ul ul {
+  margin: 0;
+  top: 20px;
+  z-index: 9990;
+  padding: 0;
+  border: solid 1px #ddd;
+}
+.navigation-top ul ul li {
+  margin: 0;
+  padding: 0 10px;
+  background: #fff;
+}
+.navigation-top ul ul li:hover {
+  background: #eee;
+}
 
 /* Small menu */
 @media screen and (max-width: 600px) {
@@ -894,6 +925,9 @@ a.wpm-button:hover {
   }
   .navigation-top > ul {
     display: none;
+  }
+  .navigation-top ul ul {
+    display: block;
   }
   .navigation-top.toggled .menu-top-toggle {
     background: #ccc;
@@ -910,9 +944,9 @@ a.wpm-button:hover {
   }
   .navigation-top.toggled a {
     display: block;
+    color: #555;
     padding: 10px 40px;
     text-decoration: none;
-    color: #555;
   }
   .navigation-top.toggled a::after {
     border-style: none !important;
@@ -925,6 +959,24 @@ a.wpm-button:hover {
   .navigation-top.toggled li a:hover {
     background: #ccc;
   }
+  .navigation-top.toggled ul ul,
+  .navigation-top.toggled ul ul ul {
+    position: static;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    float: none;
+    border: none;
+  }
+  .navigation-top.toggled ul ul a {
+    padding-left: 60px;
+    width: auto;
+  }
+  .navigation-top.toggled ul ul ul a {
+    padding-left: 80px;
+    width: auto;
+  }  
   .navigation-top.toggled ul > .current_page_item > a,
   .navigation-top.toggled ul > .current-menu-item > a {
     background: #ccc;

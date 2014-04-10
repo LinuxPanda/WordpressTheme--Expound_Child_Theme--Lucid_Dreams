@@ -20,7 +20,35 @@
 	display: block;
 	text-decoration: none;
 }
+.navigation-top ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	display: none;
+	float: left;
+	position: absolute;
+	top: 1.5em;
+	left: 0;
+	z-index: 99999;
+}
+.navigation-top ul ul ul {
+	left: 100%;
+	top: 0;
+}
+.navigation-top ul ul a {
+	width: 200px;
+}
+.navigation-top ul ul li {
+}
 .navigation-top li:hover > a {
+}
+.navigation-top ul ul :hover > a {
+}
+.navigation-top ul ul a:hover {
+}
+.navigation-top ul li:hover > ul {
+	display: block;
+}
+.navigation-top li.current_page_item a,
+.navigation-top li.current-menu-item a {
 }
 .navigation-top li.current_page_item a,
 .navigation-top li.current-menu-item a {
