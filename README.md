@@ -33,6 +33,32 @@ How-To
 4. Upload the zip file to your wordpress installation & enjoy.
 5. If the theme is not working then make sure that you have the expound theme, https://wordpress.org/themes/expound, installed in your wordpress installation.
 
+**Breadcrumb**
+
+To enable breadcrumb, I recommend the ["Hansel & Gretel: Fine-Tuned Breadcrumb Generator"](http://wordpress.org/plugins/hansel-gretel/) plugin.
+
+Add this code to content-single.php inside the header div or wherever you like.
+
+```php
+		<div class="HAG">
+			<?php if (function_exists('HAG_Breadcrumbs')) { HAG_Breadcrumbs(); } ?>
+		</div><!-- .HAG Breadcrumb -->
+```
+
+Add this code to style.css (optional).
+
+```css
+/* =Hansel & Gretel Breadcrumb
+-------------------------------------------------------------- */
+
+.HAG {
+  font-size: 12px;
+}
+.HAG a {
+  text-decoration: none;
+}
+```
+
 Version
 -------
 * v1.0 - Initial release
