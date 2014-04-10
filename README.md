@@ -28,7 +28,7 @@ Note
 How-To
 -------
 1. Download the zip file and unzip it.
-2. Rename the directory to "Lucid Dreams" and delete the 'screenshots' directory.
+2. Rename the directory to "lucid-dreams" and delete the 'screenshots' directory.
 3. Zip the directory.
 4. Upload the zip file to your wordpress installation & enjoy.
 5. If the theme is not working then make sure that you have the expound theme, https://wordpress.org/themes/expound, installed in your wordpress installation.
